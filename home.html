@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div id="breadcumbs"></div>
+    <ul id="mainUl">
+        <li>
+            <a class="href_1" href="./home.html">Home</a>
+        </li>
+        <li>
+            <a class="href_2" href="./foo.html"><b>Foo Page</b></a>
+            <ul>
+                <li>
+                    <a class="sub_1">JS1</a>
+                    <a class="sub_1">JS2</a>
+                    <a class="sub_1">JS3
+                        <ul>
+                            <li>
+                                <a class="sub__sub" href="./bar.html">Bar</a>
+                                <a class="sub__sub">JS2</a>
+                                <a class="sub__sub">JS3</a>
+                                <a class="sub__sub">JS4</a>
+                            </li>
+                        </ul>
+                    </a>
+                    <a class="sub_1">JS4</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a class="href_1">Home</a>
+        </li>
+    </ul>
+    <div id="res"></div>
+    <script src="./app.js"></script>
+</body>
+</html>
